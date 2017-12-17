@@ -1,0 +1,19 @@
+Grades for version committed on time
+	filter: 40.13 / 80
+			*Passed test: prefetch
+			*Failed test: fusion
+				*Your output: did not match
+			*Partially passed test: all (1.0 speedup)
+		
+Total: 40.13 / 80
+
+Grades for version committed as of 12 hours after deadline
+	filter: 50.75 / 80
+			*Partially passed test: prefetch (1.0 speedup)
+			*Passed test: fusion
+			*Partially passed test: all (1.8 speedup)
+		
+	Late penalty: 10.0% (waivers are applied at the end of the semester)
+Total: 45.67 / 80
+
+Final Score: 45.67 / 80
