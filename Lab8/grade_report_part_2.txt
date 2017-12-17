@@ -1,0 +1,46 @@
+Grades for version committed on time
+	has_cycle: 32.0 / 40
+			*Failed test: base case
+				*Error running test: 
+					Exception occurred at PC=0x0040052c
+					  Unaligned address in inst/data fetch: 0x15fda60a
+			*Failed test: base case (evil)
+				*Error running test: 
+					Exception occurred at PC=0x0040052c
+					  Unaligned address in inst/data fetch: 0x15fda60a
+			*Passed test: single
+			*Passed test: single (evil)
+			*Passed test: given1
+			*Passed test: given1 (evil)
+			*Passed test: given2
+			*Passed test: given2 (evil)
+			*Passed test: combined
+			*Passed test: combined (evil)
+		
+	max_depth: 30.0 / 30
+			*Passed test: base case
+			*Passed test: base case (evil)
+			*Passed test: given_1
+			*Passed test: given_1 (evil)
+			*Passed test: given_2
+			*Passed test: given_2 (evil)
+			*Passed test: given_3
+			*Passed test: given_3 (evil)
+			*Passed test: combined
+			*Passed test: combined (evil)
+		
+	shift_many: 20.0 / 20
+			*Passed test: base case
+			*Passed test: base case (evil)
+			*Passed test: given_1
+			*Passed test: given_1 (evil)
+			*Passed test: given_2
+			*Passed test: given_2 (evil)
+			*Passed test: given_3
+			*Passed test: given_3 (evil)
+			*Passed test: large
+			*Passed test: large (evil)
+		
+Total: 82.0 / 70
+
+Final Score: 82.0 / 70

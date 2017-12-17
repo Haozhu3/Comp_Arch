@@ -1,0 +1,61 @@
+Grades for version committed on time
+	accumulate: 35.0 / 40
+			*Passed test: Base Case 1 
+			*Passed test: Base Case 1  (evil)
+			*Passed test: Base Case 2 
+			*Passed test: Base Case 2  (evil)
+			*Failed test: Base Case 3
+				*Error running test: 
+					Exception occurred at PC=0x0040031c
+					  Bad address in data/stack read: 0x00000000
+			*Failed test: Base Case 3 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x0040031c
+					  Bad address in data/stack read: 0x00000000
+			*Passed test: Given 1
+			*Passed test: Given 1 (evil)
+			*Passed test: Given 2
+			*Passed test: Given 2 (evil)
+			*Passed test: TooShort
+			*Passed test: TooShort (evil)
+			*Passed test: Empty
+			*Passed test: Empty (evil)
+			*Passed test: Long
+			*Passed test: Long (evil)
+		
+	max_n_unique_substring: 20.62 / 30
+			*Passed test: BaseCase n
+			*Passed test: BaseCase n (evil)
+			*Passed test: test_null
+			*Passed test: test_null (evil)
+			*Passed test: empty
+			*Passed test: empty (evil)
+			*Passed test: given1
+			*Failed test: given1 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400430
+					  Bad address in data/stack read: 0xdeadc0df
+			*Passed test: given2
+			*Failed test: given2 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400430
+					  Bad address in data/stack read: 0xdeadc0df
+			*Passed test: edge_case_n
+			*Failed test: edge_case_n (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400430
+					  Bad address in data/stack read: 0xdeadc0df
+			*Passed test: broken
+			*Failed test: broken (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400430
+					  Bad address in data/stack read: 0xdeadc0df
+			*Passed test: whole
+			*Failed test: whole (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400430
+					  Bad address in data/stack read: 0xdeadc0df
+		
+Total: 55.62 / 70
+
+Final Score: 55.62 / 70
