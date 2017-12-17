@@ -1,0 +1,69 @@
+$date
+	Thu Oct  5 12:56:02 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decoder_test $end
+$var wire 3 ! alu_op [2:0] $end
+$var wire 1 " alu_src2 $end
+$var wire 1 # except $end
+$var wire 1 $ rd_src $end
+$var wire 1 % writeenable $end
+$var reg 6 & funct [5:0] $end
+$var reg 6 ' opcode [5:0] $end
+$scope module decoder $end
+$var wire 3 ( alu_op [2:0] $end
+$var wire 1 " alu_src2 $end
+$var wire 1 # except $end
+$var wire 6 ) funct [5:0] $end
+$var wire 1 * he $end
+$var wire 1 + hei $end
+$var wire 1 , huo $end
+$var wire 1 - huoi $end
+$var wire 1 . jia $end
+$var wire 1 / jiai $end
+$var wire 6 0 opcode [5:0] $end
+$var wire 1 $ rd_src $end
+$var wire 1 1 sub $end
+$var wire 1 % writeenable $end
+$var wire 1 2 yf $end
+$var wire 1 3 yh $end
+$var wire 1 4 yhi $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+04
+03
+02
+01
+b0 0
+0/
+1.
+0-
+0,
+0+
+0*
+b100000 )
+b10 (
+b0 '
+b100000 &
+1%
+0$
+0#
+0"
+b10 !
+$end
+#10
+b11 !
+b11 (
+0.
+11
+b100010 &
+b100010 )
+#30
